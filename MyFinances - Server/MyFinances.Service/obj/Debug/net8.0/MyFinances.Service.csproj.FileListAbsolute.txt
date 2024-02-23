@@ -1,0 +1,33 @@
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\bin\Debug\net8.0\MyFinances.Service.deps.json
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\bin\Debug\net8.0\MyFinances.Service.runtimeconfig.json
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\bin\Debug\net8.0\MyFinances.Service.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\bin\Debug\net8.0\MyFinances.Service.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.csproj.AssemblyReference.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.AssemblyInfoInputs.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.AssemblyInfo.cs
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.csproj.CoreCompileInputs.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\refint\MyFinances.Service.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.genruntimeconfig.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Service\obj\Debug\net8.0\ref\MyFinances.Service.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\bin\Debug\net8.0\MyFinances.Service.deps.json
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\bin\Debug\net8.0\MyFinances.Service.runtimeconfig.json
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\bin\Debug\net8.0\MyFinances.Service.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\bin\Debug\net8.0\MyFinances.Service.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\bin\Debug\net8.0\MyFinances.Domain.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\bin\Debug\net8.0\MyFinances.Repository.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\bin\Debug\net8.0\MyFinances.Domain.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\bin\Debug\net8.0\MyFinances.Repository.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.csproj.AssemblyReference.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.AssemblyInfoInputs.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.AssemblyInfo.cs
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.csproj.CoreCompileInputs.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.csproj.CopyComplete
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\refint\MyFinances.Service.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\MyFinances.Service.genruntimeconfig.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Service\obj\Debug\net8.0\ref\MyFinances.Service.dll

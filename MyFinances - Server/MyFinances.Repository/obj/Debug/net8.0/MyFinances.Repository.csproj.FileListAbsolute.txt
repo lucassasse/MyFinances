@@ -1,0 +1,31 @@
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Repository.deps.json
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Repository.runtimeconfig.json
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Repository.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Repository.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.csproj.AssemblyReference.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.AssemblyInfoInputs.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.AssemblyInfo.cs
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.csproj.CoreCompileInputs.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\refint\MyFinances.Repository.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.genruntimeconfig.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances\MyFinances.Repository\obj\Debug\net8.0\ref\MyFinances.Repository.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Repository.deps.json
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Repository.runtimeconfig.json
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Repository.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Repository.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Domain.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\bin\Debug\net8.0\MyFinances.Domain.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.csproj.AssemblyReference.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.AssemblyInfoInputs.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.AssemblyInfo.cs
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.csproj.CoreCompileInputs.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.csproj.CopyComplete
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\refint\MyFinances.Repository.dll
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.pdb
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\MyFinances.Repository.genruntimeconfig.cache
+C:\Users\lukas\OneDrive\Área de Trabalho\MyFinances - Server\MyFinances.Repository\obj\Debug\net8.0\ref\MyFinances.Repository.dll
