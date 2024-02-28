@@ -2,6 +2,8 @@
 using MyFinances.Service.Interfaces;
 using MyFinances.Repository.Interfaces;
 using MyFinances.Domain.ViewModels;
+using MyFinances.Domain.Dtos;
+using MyFinances.Domain.Models;
 
 namespace MyFinances.Service.Services
 {
@@ -27,6 +29,36 @@ namespace MyFinances.Service.Services
             catch (Exception ex)
             {
                 throw new ApplicationException("Error occurred while getting all financial transaction.", ex);
+            }
+        }
+
+        public FinancialTransactionDetailsViewModel GetById(int id)
+        {
+            try
+            {
+                var financialTransaction = _financialTransactionRepository.GetById(id);
+
+                var financialTransactionDetailsViewModel = _mapper.Map<FinancialTransactionDetailsViewModel>(financialTransaction);
+
+                return financialTransactionDetailsViewModel;
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException("An error occurred while fetching the financial transaction.", ex);
+            }
+        }
+
+        public FinancialTransaction Create(FinancialTransactionCreateDto model)
+        {
+            try
+            {
+                var financialTransaction = _mapper.Map<FinancialTransaction>(model);
+
+                return _financialTransactionRepository.Create(financialTransaction);
+            }
+            catch(Exception ex)
+            {
+                throw new ApplicationException("Error occurred while creating financial transaction.", ex);
             }
         }
     }

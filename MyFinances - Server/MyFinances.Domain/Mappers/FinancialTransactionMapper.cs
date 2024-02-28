@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using MyFinances.Domain.Dtos;
 using MyFinances.Domain.Models;
 using MyFinances.Domain.ViewModels;
 
@@ -8,7 +9,8 @@ namespace MyFinances.Domain.Mappers
     {
         public FinancialTransactionMapper() { 
             CreateMap<FinancialTransaction, FinancialTransactionViewModel>();
-            //CreateMap<FinancialTransactionDto, FinancialTransaction>();
+            CreateMap<FinancialTransaction, FinancialTransactionDetailsViewModel>();
+            CreateMap<FinancialTransactionCreateDto, FinancialTransaction>();
         }
     }
 }

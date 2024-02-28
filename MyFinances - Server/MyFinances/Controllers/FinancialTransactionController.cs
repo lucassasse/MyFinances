@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyFinances.Domain.Dtos;
 using MyFinances.Domain.ViewModels;
 using MyFinances.Service.Interfaces;
 
@@ -14,6 +15,7 @@ namespace MyFinances.Controllers
             _financialTransactionService = financialTransactionService;
         }
 
+        //To list all items on the Dashboard screen.
         [HttpGet]
         public ActionResult<List<FinancialTransactionViewModel>> GetAll()
         {
@@ -25,6 +27,47 @@ namespace MyFinances.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, $"Erro interno do servidor: {ex.Message}");
+            }
+        }
+
+        //To display details when clicking a list item on the Dashboard screen.
+        [HttpGet("id")]
+        public IActionResult GetById([FromRoute] int id)
+        {
+            try
+            {
+                if (id == null)
+                    return BadRequest("Invalid ID");
+
+                var financialTransaction = _financialTransactionService.GetById(id);
+                if (financialTransaction == null)
+                    return NotFound("Financial Transaction not found.");
+
+                return Ok(financialTransaction);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error in GetById Controller. Error: {ex.Message}");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Create([FromBody] FinancialTransactionCreateDto financialTransaction)
+        {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest("Invalid model state");
+
+                var createdFinancialTransaction = _financialTransactionService.Create(financialTransaction);
+
+                var resourceUri = Url.Action("Get", new {id = createdFinancialTransaction.Id });
+
+                return Created(resourceUri, createdFinancialTransaction);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal Server Error in Create Controller. Error: {ex.Message}");
             }
         }
     }

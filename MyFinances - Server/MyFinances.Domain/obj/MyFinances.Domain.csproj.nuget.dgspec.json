@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances - Server\\MyFinances.Domain\\MyFinances.Domain.csproj": {}
+    "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances\\MyFinances - Server\\MyFinances.Domain\\MyFinances.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances - Server\\MyFinances.Domain\\MyFinances.Domain.csproj": {
+    "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances\\MyFinances - Server\\MyFinances.Domain\\MyFinances.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances - Server\\MyFinances.Domain\\MyFinances.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances\\MyFinances - Server\\MyFinances.Domain\\MyFinances.Domain.csproj",
         "projectName": "MyFinances.Domain",
-        "projectPath": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances - Server\\MyFinances.Domain\\MyFinances.Domain.csproj",
+        "projectPath": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances\\MyFinances - Server\\MyFinances.Domain\\MyFinances.Domain.csproj",
         "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances - Server\\MyFinances.Domain\\obj\\",
+        "outputPath": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances\\MyFinances - Server\\MyFinances.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2,6 +2,7 @@
 using MyFinances.Domain.Models;
 using MyFinances.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using MyFinances.Domain.Dtos;
 
 namespace MyFinances.Repository.Repositorys
 {
@@ -14,6 +15,19 @@ namespace MyFinances.Repository.Repositorys
         public List<FinancialTransaction> GetAll()
         {
             return _context.FinancialTransaction.ToList();
+        }
+
+        public FinancialTransaction GetById(int id) {
+            return _context.FinancialTransaction.FirstOrDefault(e => e.Id == id);
+        }
+        
+        public FinancialTransaction Create(FinancialTransaction financialTransaction)
+        {
+            _context.Add(financialTransaction);
+
+            _context.SaveChanges();
+
+            return financialTransaction;
         }
     }
 }

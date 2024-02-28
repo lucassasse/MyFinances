@@ -1,4 +1,5 @@
-﻿using MyFinances.Domain.Models;
+﻿using MyFinances.Domain.Dtos;
+using MyFinances.Domain.Models;
 
 namespace MyFinances.Repository.Interfaces
 {
@@ -6,5 +7,7 @@ namespace MyFinances.Repository.Interfaces
 
     {
         List<FinancialTransaction> GetAll();
+        FinancialTransaction GetById(int id);
+        FinancialTransaction Create(FinancialTransaction model);
     }
 }

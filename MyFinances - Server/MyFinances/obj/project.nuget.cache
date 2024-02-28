@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SqbkfL/2+k4NDMuGBhwQZUoKJt5V+5KmOg5uWQx0U/Hbos15XO+pBrImc4usmbIKOEA7gJ6027rGuoyDtF3tng==",
+  "dgSpecHash": "VxQSUxiK29F66SrXmfkhbG5dzfjUAQMuIz7ULGq1p9QoU7ksUNDDo0ixSzGXYfUQAYN3T2fzNsdWdCkC/NY3Ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances - Server\\MyFinances\\MyFinances.csproj",
+  "projectFilePath": "C:\\Users\\lukas\\OneDrive\\Área de Trabalho\\MyFinances\\MyFinances - Server\\MyFinances\\MyFinances.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lukas\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\lukas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
