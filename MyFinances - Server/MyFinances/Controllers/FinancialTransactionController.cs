@@ -31,7 +31,7 @@ namespace MyFinances.Controllers
         }
 
         //To display details when clicking a list item on the Dashboard screen.
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public IActionResult GetById([FromRoute] int id)
         {
             try

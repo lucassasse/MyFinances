@@ -16,8 +16,8 @@ namespace MyFinances.Domain.ViewModels
         [Required]
         public DateTime Date { get; set; }
         [Required]
-        public bool WithdrawalOrDeposit { get; set; } //0 = input | 1 = output
+        public bool WithdrawalOrDeposit { get; set; } // 0 = input | 1 = output
         [Required]
-        public int BankId { get; set; }
+        public string Name { get; set; } // Bank name
     }
 }

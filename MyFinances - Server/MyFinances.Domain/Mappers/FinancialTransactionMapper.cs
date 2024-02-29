@@ -9,7 +9,10 @@ namespace MyFinances.Domain.Mappers
     {
         public FinancialTransactionMapper() { 
             CreateMap<FinancialTransaction, FinancialTransactionViewModel>();
-            CreateMap<FinancialTransaction, FinancialTransactionDetailsViewModel>();
+
+            CreateMap<FinancialTransaction, FinancialTransactionDetailsViewModel>()
+            .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Bank.Name));
+
             CreateMap<FinancialTransactionCreateDto, FinancialTransaction>();
         }
     }

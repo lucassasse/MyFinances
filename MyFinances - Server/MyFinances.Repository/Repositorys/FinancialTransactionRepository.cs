@@ -18,7 +18,9 @@ namespace MyFinances.Repository.Repositorys
         }
 
         public FinancialTransaction GetById(int id) {
-            return _context.FinancialTransaction.FirstOrDefault(e => e.Id == id);
+            return _context.FinancialTransaction
+                .Include(x => x.Bank)
+                .FirstOrDefault(e => e.Id == id);
         }
         
         public FinancialTransaction Create(FinancialTransaction financialTransaction)
