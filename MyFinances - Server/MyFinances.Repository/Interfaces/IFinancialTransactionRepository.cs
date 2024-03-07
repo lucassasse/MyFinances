@@ -9,5 +9,7 @@ namespace MyFinances.Repository.Interfaces
         List<FinancialTransaction> GetAll();
         FinancialTransaction GetById(int id);
         FinancialTransaction Create(FinancialTransaction model);
+        FinancialTransaction Update(FinancialTransaction model);
+        FinancialTransaction Delete(FinancialTransaction model);
     }
 }

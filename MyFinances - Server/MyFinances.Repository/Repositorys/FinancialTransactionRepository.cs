@@ -31,5 +31,23 @@ namespace MyFinances.Repository.Repositorys
 
             return financialTransaction;
         }
+
+        public FinancialTransaction Update(FinancialTransaction financialTransaction)
+        {
+            _context.Update(financialTransaction);
+
+            _context.SaveChanges();
+
+            return financialTransaction;
+        }
+
+        public FinancialTransaction Delete(FinancialTransaction financialTransaction)
+        {
+            _context.Remove(financialTransaction);
+
+            _context.SaveChanges();
+
+            return financialTransaction;
+        }
     }
 }

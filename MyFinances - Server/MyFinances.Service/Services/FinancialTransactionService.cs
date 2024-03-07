@@ -61,5 +61,37 @@ namespace MyFinances.Service.Services
                 throw new ApplicationException("Error occurred while creating financial transaction.", ex);
             }
         }
+
+        public FinancialTransaction Update(FinancialTransactionUpdateDto model, int id)
+        {
+            try
+            {
+                var financialTransaction = _financialTransactionRepository.GetById(id);
+
+                _mapper.Map(model, financialTransaction);
+
+                return _financialTransactionRepository.Update(financialTransaction);
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException("Error occurred while updating financial transaction.", ex);
+            }
+        }
+
+        public FinancialTransaction Delete(int id)
+        {
+            try
+            {
+                var financialTransaction = _financialTransactionRepository.GetById(id);
+
+                _financialTransactionRepository.Delete(financialTransaction);
+
+                return financialTransaction;
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException("Error occurred while deleting financial transaction.", ex);
+            }
+        }
     }
 }

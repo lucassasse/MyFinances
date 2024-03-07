@@ -9,5 +9,7 @@ namespace MyFinances.Service.Interfaces
         List<FinancialTransactionViewModel> GetAll();
         FinancialTransactionDetailsViewModel GetById(int id);
         FinancialTransaction Create(FinancialTransactionCreateDto DtoModel);
+        FinancialTransaction Update(FinancialTransactionUpdateDto DtoModel, int id);
+        FinancialTransaction Delete(int id);
     }
 }
